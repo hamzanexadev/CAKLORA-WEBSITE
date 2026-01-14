@@ -394,8 +394,13 @@ body {
     margin-bottom: 20px;
 }
 
+.contact-right select {
+    font-size: 14px;
+    color: #555;
+}
 .contact-right input,
-.contact-right textarea {
+.contact-right textarea,
+.contact-right select {
     width: 100%;
     padding: 15px 20px;
     margin-bottom: 20px;
@@ -429,29 +434,6 @@ body {
 .btn-send:hover {
     background: #b25454;
     transform: translateY(-2px);
-}
-
-/* Decorative Shapes */
-.contact-decor .decor-circle {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    background: #FFD1D6;
-    border-radius: 50%;
-    top: -80px;
-    right: -80px;
-    opacity: 0.3;
-    z-index: 0;
-}
-
-.contact-decor .decor-cake {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: url('https://img.icons8.com/color/96/cake.png') no-repeat center/contain;
-    bottom: -20px;
-    left: -20px;
-    opacity: 0.5;
 }
 
 /* Responsive */
